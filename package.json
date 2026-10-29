@@ -1,0 +1,22 @@
+{
+  "name": "bootcamp-api-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "vitest",
+    "test:login":"vitest run tests/login.test.js",
+    "test:produtos":"vitest run tests/produtos.test.js",
+    "test:usuarios":"vitest run tests/usuarios.test.js"
+  },
+ 
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "supertest": "^7.3.0",
+    "vitest": "^5.0.2"
+  }
+}
